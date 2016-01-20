@@ -1,0 +1,69 @@
+/*!
+Theme Name: Uswds Theme
+Theme URI: http://underscores.me/
+Author: Blake Bertuccelli
+Author URI: https://www.linkedin.com/in/blakebertuccelli
+Description: A custom theme for uswds, based on the uswds Theme framework
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: uswds
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+uswds Theme is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Core
+# Elements
+# Components
+--------------------------------------------------------------*/
+@import 'sass/lib/bourbon/bourbon';
+@import 'sass/lib/neat/neat';
+@import 'sass/lib/normalize';
+
+
+/*--------------------------------------------------------------
+# Core
+--------------------------------------------------------------*/
+@import 'sass/core/grid-settings';
+@import 'sass/core/defaults';
+@import 'sass/core/variables';
+@import 'sass/core/base';
+@import 'sass/core/grid';
+@import 'sass/core/utilities';
+
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+// Styles basic html elements
+
+@import 'sass/elements/typography';
+@import 'sass/elements/list';
+@import 'sass/elements/inputs';
+@import 'sass/elements/buttons';
+@import 'sass/elements/table';
+@import 'sass/elements/figure';
+@import 'sass/elements/labels';
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import 'sass/components/skipnav';
+@import 'sass/components/disclaimer';
+@import 'sass/components/sidenav';
+@import 'sass/components/footer';
+@import 'sass/components/forms';
+@import 'sass/components/search';
+@import 'sass/components/alerts';
+@import 'sass/components/accordions';
